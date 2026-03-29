@@ -1,4 +1,4 @@
-# Sentiment Analyzer 📝
+# Sentiment Analyzer 
 
 **Sentiment Analyzer** is a web application built with **Streamlit** that predicts the sentiment of text data—positive, negative, or neutral—using **Natural Language Processing (NLP)** and **Machine Learning**. This project is designed for real-world applications like analyzing product reviews, social media posts, and customer feedback.
 
