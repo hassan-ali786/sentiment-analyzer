@@ -1,102 +1,187 @@
-# Sentiment Analyzer 
 
-**Sentiment Analyzer** is a web application built with **Streamlit** that predicts the sentiment of text data—positive, negative, or neutral—using **Natural Language Processing (NLP)** and **Machine Learning**. This project is designed for real-world applications like analyzing product reviews, social media posts, and customer feedback.
+# Sentiment Analyzer
 
----
+Sentiment Analyzer is a web application built with Streamlit that predicts the sentiment of text data (positive, negative, or neutral) using Natural Language Processing (NLP) and Machine Learning.
 
-## **Features**
-
-- Predicts sentiment (Positive / Negative / Neutral) from user input text.
-- Fast and interactive **Streamlit UI** for real-time analysis.
-- Clean and modular code structure for easy scalability.
-- Trained on **real-world datasets** (IMDB movie reviews and Twitter data).
-- Confidence score displayed with each prediction.
-- Easily extendable to other NLP tasks like review classification or text analytics.
+This project is designed for real-world use cases such as analyzing product reviews, social media posts, and customer feedback.
 
 ---
 
-## **Folder Structure**
+## Tech Stack
 
-```text
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/Scikit-Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![NLTK](https://img.shields.io/badge/NLTK-85C1E9?style=for-the-badge)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+
+---
+
+## Features
+
+- Predicts sentiment (Positive / Negative / Neutral) from user input text  
+- Fast and interactive Streamlit UI for real-time analysis  
+- Clean and modular code structure  
+- Trained on real-world datasets (IMDB and Twitter data)  
+- Displays confidence score with predictions  
+- Easily extendable for other NLP tasks  
+
+---
+
+## Project Structure
+
+
 Sentiment_Analyzer/
 │
-├── data/                  # Raw datasets (CSV files)
-│   └── imdb_reviews.csv
-├── models/                # Trained ML models and vectorizers
-│   ├── model.pkl
-│   └── vectorizer.pkl
-├── src/                   # Python scripts
-│   ├── preprocessing.py
-│   ├── model.py           # Training script
-│   └── predict.py         # Prediction functions
-├── app.py                 # Streamlit application
+├── data/
+│ └── imdb_reviews.csv
+├── models/
+│ ├── model.pkl
+│ └── vectorizer.pkl
+├── src/
+│ ├── preprocessing.py
+│ ├── model.py
+│ └── predict.py
+├── app.py
 └── requirements.txt
-Installation
 
-Clone the repository:
+
+---
+
+## Installation
+
+### 1. Clone the repository
+
 
 git clone https://github.com/yourusername/sentiment-analyzer.git
+
 cd sentiment-analyzer
 
-Create a virtual environment (recommended):
+
+### 2. Create virtual environment (recommended)
+
 
 python -m venv venv
-source venv/bin/activate  # Linux/macOS
-venv\Scripts\activate     # Windows
 
-Install dependencies:
+
+Activate environment:
+
+Windows:
+
+venv\Scripts\activate
+
+
+Linux/macOS:
+
+source venv/bin/activate
+
+
+### 3. Install dependencies
+
 
 pip install -r requirements.txt
 
-Download the IMDB dataset and place it in data/imdb_reviews.csv.
 
-Usage
+### 4. Add dataset
 
-Train the model (optional if models/ already has trained models):
+Download IMDB dataset and place it in:
+
+
+data/imdb_reviews.csv
+
+
+---
+
+## Usage
+
+### Train the model (optional)
+
 
 python src/model.py
 
-Run the Streamlit app:
+
+### Run the application
+
 
 streamlit run app.py
 
-Enter your text in the input box and click "Analyze Sentiment".
 
-The app will display the predicted sentiment and confidence score.
+Open in browser:
 
-Technologies Used
 
-Python 3.10+
+http://localhost:8501
 
-Streamlit – Frontend and web app framework
 
-scikit-learn – Machine learning algorithms
+---
 
-NLTK – Text preprocessing and stopword removal
+## How It Works
 
-Pandas – Data manipulation
+1. User enters text  
+2. Text is preprocessed (cleaning, stopword removal)  
+3. Converted into features using TF-IDF  
+4. Model predicts sentiment  
+5. Output shows sentiment and confidence score  
 
-TF-IDF Vectorizer – Feature extraction from text
+---
 
-Naive Bayes Classifier – Sentiment classification
+## Model Details
 
-Dataset
+- Vectorizer: TF-IDF  
+- Algorithm: Naive Bayes  
+- Task: Text Classification  
 
-IMDB Movie Reviews Dataset – 50,000 movie reviews labeled as positive or negative.
-Kaggle Link
+---
 
-Optional: You can extend this project using Twitter data or your own text dataset.
+## Dataset
 
-Future Improvements
+- IMDB Movie Reviews Dataset  
+- 50,000 labeled reviews (positive / negative)  
 
-Use advanced models like BERT for better accuracy.
+Optional:
+- Twitter dataset for extended training  
 
-Multi-language support for reviews in different languages.
+---
 
-Add a dashboard with sentiment distribution charts.
+## Example Input
 
-Deploy on Streamlit Cloud or Heroku for public access.
 
-License
+This movie was absolutely amazing, I loved it!
 
-This project is open-source and available under the MIT License.
+
+Output:
+
+
+Sentiment: Positive
+Confidence: 92%
+
+
+---
+
+## Future Improvements
+
+- Use advanced models like BERT  
+- Add multi-language support  
+- Create analytics dashboard  
+- Deploy on Streamlit Cloud or Render  
+
+---
+
+## Use Cases
+
+- Product review analysis  
+- Social media sentiment tracking  
+- Customer feedback analysis  
+- NLP learning project  
+
+---
+
+## License
+
+This project is open-source under the MIT License.
+
+---
+
+## Author
+
+Hassan Ali  
+Data Science and Machine Learning Enthusiast
