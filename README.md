@@ -52,7 +52,7 @@ Sentiment_Analyzer/
 ### 1. Clone the repository
 
 
-git clone https://github.com/yourusername/sentiment-analyzer.git
+git clone https://github.com/hassan-ali786/sentiment-analyzer.git
 
 cd sentiment-analyzer
 
