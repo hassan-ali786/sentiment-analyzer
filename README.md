@@ -33,17 +33,25 @@ This project is designed for real-world use cases such as analyzing product revi
 Sentiment_Analyzer/
 │
 ├── data/
-│ └── imdb_reviews.csv
+│   └── imdb_reviews.csv
+│
 ├── models/
-│ ├── model.pkl
-│ └── vectorizer.pkl
+│   ├── sentiment_model.pkl
+│   └── tfidf_vectorizer.pkl
+│
 ├── src/
-│ ├── preprocessing.py
-│ ├── model.py
-│ └── predict.py
+│   ├── __init__.py
+│   ├── preprocessing.py
+│   ├── train_model.py
+│   └── predict.py
+│
+├── notebooks/
+│   └── EDA.ipynb
+│
 ├── app.py
-└── requirements.txt
-
+├── requirements.txt
+├── README.md
+└── .gitignore
 
 ---
 
