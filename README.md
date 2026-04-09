@@ -189,15 +189,15 @@ This project is open-source under the MIT License.
 
 ---
 
+## Author
+
+Hassan Ali  
+Data Scientist and Machine Learning Engineer
+
+---
+
 ##  Application Screenshot
 
 ![Home Page](https://raw.githubusercontent.com/hassan-ali786/sentiment-analyzer/main/images/homepage.png)
 
 ---
-
----
-
-## Author
-
-Hassan Ali  
-Data Scientist and Machine Learning Engineer
