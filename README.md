@@ -47,7 +47,8 @@ Sentiment_Analyzer/
 │
 ├── notebooks/
 │   └── EDA.ipynb
-│
+├── images/
+│   └── homepage.png
 ├── app.py
 ├── requirements.txt
 ├── README.md
@@ -185,6 +186,14 @@ Confidence: 92%
 ## License
 
 This project is open-source under the MIT License.
+
+---
+
+##  Application Screenshot
+
+![Home Page](https://raw.githubusercontent.com/hassan-ali786/sentiment-analyzer/main/images/homepage.png)
+
+---
 
 ---
 
