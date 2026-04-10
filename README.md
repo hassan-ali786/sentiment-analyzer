@@ -29,22 +29,17 @@ This project is designed for real-world use cases such as analyzing product revi
 
 ## Project Structure
 
-
 Sentiment_Analyzer/
-│
 ├── data/
 │   └── imdb_reviews.csv
-│
 ├── models/
 │   ├── sentiment_model.pkl
 │   └── tfidf_vectorizer.pkl
-│
 ├── src/
 │   ├── __init__.py
 │   ├── preprocessing.py
 │   ├── train_model.py
 │   └── predict.py
-│
 ├── notebooks/
 │   └── EDA.ipynb
 ├── images/
