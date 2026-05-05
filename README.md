@@ -31,10 +31,9 @@ Sentiment_Analyzer/
 ├── data/
 │   └── imdb_reviews.csv
 ├── models/
-│   ├── sentiment_model.pkl
+│   ├── model.pkl
 │   └── vectorizer.pkl
 ├── src/
-│   ├── __init__.py
 │   ├── preprocessing.py
 │   ├── train_model.py
 │   └── predict.py
