@@ -32,7 +32,7 @@ Sentiment_Analyzer/
 │   └── imdb_reviews.csv
 ├── models/
 │   ├── sentiment_model.pkl
-│   └── tfidf_vectorizer.pkl
+│   └── vectorizer.pkl
 ├── src/
 │   ├── __init__.py
 │   ├── preprocessing.py
