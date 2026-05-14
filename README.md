@@ -28,7 +28,7 @@ This project is designed for real-world use cases such as analyzing product revi
 ```bash
 Sentiment_Analyzer/
 ├── data/
-│   └── imdb_reviews.csv
+│   └── IMDB_Dataset.csv
 ├── models/
 │   ├── model.pkl
 │   └── vectorizer.pkl
