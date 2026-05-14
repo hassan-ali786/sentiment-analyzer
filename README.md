@@ -86,7 +86,7 @@ pip install -r requirements.txt
 Download IMDB dataset and place it in:
 
 
-data/imdb_reviews.csv
+data/IMDB_Dataset.csv
 
 
 ---
