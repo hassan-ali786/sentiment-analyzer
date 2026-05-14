@@ -24,7 +24,6 @@ This project is designed for real-world use cases such as analyzing product revi
 ---
 
 ## Project Structure
-## Project Structure
 
 ```bash
 Sentiment_Analyzer/
