@@ -184,7 +184,7 @@ This project is open-source under the MIT License.
 ## Author
 
 Hassan Ali  
-Data Scientist and Machine Learning Engineer
+Data Scientist & Machine Learning Engineer
 
 ---
 
