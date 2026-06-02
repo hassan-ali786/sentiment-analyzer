@@ -8,9 +8,9 @@ This project is designed for real-world use cases such as analyzing product revi
 
 ## Live Demo:
 
+[Click here to view the Live Demo](https://news-classifier-gllhtp5tvw9ydgpwhprt4j.streamlit.app/)
 
 ---
-
 
 ## Video Demo:
 
