@@ -109,7 +109,7 @@ data/IMDB_Dataset.csv
 ### Train the model (optional)
 
 
-python src/model.py
+python src/train_model.py
 
 
 ### Run the application
