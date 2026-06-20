@@ -2,3 +2,4 @@ streamlit
 pandas
 scikit-learn
 nltk
+x_twitter_scraper==0.4.1
