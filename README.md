@@ -187,16 +187,16 @@ Confidence: 92%
 
 ---
 
-## License
-
-This project is open-source under the MIT License.
-
----
-
 ## Author
 
 Hassan Ali  
 Data Scientist & ML Engineer
+
+---
+
+## License
+
+This project is open-source under the MIT License.
 
 ---
 
