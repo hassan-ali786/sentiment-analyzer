@@ -124,11 +124,17 @@ Open in browser:
 http://localhost:8501
 
 
+### Optional Xquik source
+
+Set `X_TWITTER_SCRAPER_API_KEY` to load recent X posts through the
+`x_twitter_scraper` Python SDK. The app uses `client.x.tweets.search(...)` and
+passes selected post text through the same local sentiment model.
+
 ---
 
 ## How It Works
 
-1. User enters text  
+1. User enters text or loads X posts with Xquik
 2. Text is preprocessed (cleaning, stopword removal)  
 3. Converted into features using TF-IDF  
 4. Model predicts sentiment  
