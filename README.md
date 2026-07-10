@@ -152,6 +152,20 @@ http://localhost:8501
 Optional:
 - Twitter dataset for extended training  
 
+### Prepare TweetClaw Exports
+
+TweetClaw exports can be converted into the same `review,sentiment` CSV shape
+used by `src/train_model.py`.
+
+```bash
+python scripts/tweetclaw_to_training_csv.py tweetclaw-export.jsonl data/twitter_reviews.csv --default-sentiment neutral
+```
+
+Review the generated labels before training. If the export already includes a
+`sentiment`, `label`, or `polarity` column with `positive`, `negative`, or
+`neutral`, the converter keeps that value. Otherwise `--default-sentiment`
+provides a temporary label so rows are easy to review.
+
 ---
 
 ## Example Input
